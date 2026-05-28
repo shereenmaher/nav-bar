@@ -1,0 +1,51 @@
+.nav{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    width: 600px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    
+   
+}
+.nav-title{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    margin-left: 10px;
+   
+}
+
+.nav-links{
+    font-family: 'Barlow', sans-serif;
+    font-size: 8px;
+    display: flex;
+    width: 800px;
+    color: white;
+    align-items:center;
+    justify-content:flex-end;
+    gap: 20px ;
+    padding: 20px;
+    text-decoration: none; /*this didn't work i had to put it ine each child class*/
+    list-style: none;
+
+}
+.active{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    font-size: 8px;
+    font-family: 'Barlow', sans-serif;
+    background-color: #17a2b8;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    align-items: center;
+}
+#decoration{
+    color: white;
+    text-decoration: none;
+}
